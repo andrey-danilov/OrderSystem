@@ -1,0 +1,51 @@
+﻿@model string
+<div>
+    
+    <input type="text" id="Phone_Number" value="@Model" style="width:5px;" />
+    <button data-copytarget="#Phone_Number">Номера</button>
+    <script>
+                            (function () {
+
+                                'use strict';
+
+                                // click events
+                                document.body.addEventListener('click', copy, true);
+
+                                // event handler
+                                function copy(e) {
+
+                                    // find target element
+                                    var
+                                      t = e.target,
+                                      c = t.dataset.copytarget,
+                                      inp = (c ? document.querySelector(c) : null);
+
+
+                                    if (inp && inp.select) {
+
+                                        // select text
+                                        inp.select();
+
+                                        try {
+                                            // copy text
+                                            document.execCommand('copy');
+                                            inp.blur();
+                                        }
+                                        catch (err) {
+                                            alert('please press Ctrl/Cmd+C to copy');
+                                        }
+
+                                    }
+
+                                }
+
+                            })();
+    </script>
+    
+</div>
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+
+

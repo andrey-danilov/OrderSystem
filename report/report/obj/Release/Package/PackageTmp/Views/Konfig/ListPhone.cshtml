@@ -1,0 +1,26 @@
+﻿@model List<report.Models.Contacts>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Имя")
+        </th>
+        <th>
+            @Html.DisplayName("Контакт")
+        </th>
+        <th>
+            @Html.DisplayName("Описание")
+        </th>
+        <th></th>
+    </tr>
+    <tr >
+        @Html.Partial("AddPhone", new report.Models.Contacts() { Konfig = Model.First().Konfig})
+    </tr>
+    <tr id="NewContact"></tr>
+@foreach (var item in Model) {
+    <tr id="Contact_@item.Id">
+        @Html.Partial("EditPhone", item)
+    </tr>
+}
+
+</table>

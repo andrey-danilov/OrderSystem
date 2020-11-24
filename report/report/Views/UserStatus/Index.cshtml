@@ -1,0 +1,12 @@
+﻿@model IEnumerable<report.Models.UserStatus>
+
+<h2>Список статусов пользователя</h2>
+
+@Html.Partial("~/Views/UserStatus/UserStatusAdd.cshtml", new report.Models.UserStatus())
+
+<div id="UserStatusList">
+    @foreach (report.Models.UserStatus US in Model)
+    {
+        @Html.Partial("~/Views/UserStatus/Edit.cshtml", US)
+    }
+</div>

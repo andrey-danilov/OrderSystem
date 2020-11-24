@@ -1,0 +1,23 @@
+﻿@model report.Models.Konfig
+@{
+    if (Model.InQueue)
+    {
+        @Ajax.ActionLink(Model.InQueue.ToString(), "AddToQueue", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "InQueue" + Model.Id }, new { @style = "color: #00ff00; margin-right: 10px;" })
+    }
+    else
+    {
+        @Ajax.ActionLink(Model.InQueue.ToString(), "AddToQueue", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "InQueue" + Model.Id }, new { @style = "color: #ff0000; margin-right: 10px;" })
+    }
+
+}
+
+
+
+
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+
+

@@ -1,0 +1,869 @@
+D:\Парсеры\report\report\bin\ApplicationInsights.config
+D:\Парсеры\report\report\bin\roslyn\csc.exe
+D:\Парсеры\report\report\bin\roslyn\csc.exe.config
+D:\Парсеры\report\report\bin\roslyn\csc.rsp
+D:\Парсеры\report\report\bin\roslyn\csi.exe
+D:\Парсеры\report\report\bin\roslyn\csi.rsp
+D:\Парсеры\report\report\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Парсеры\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Парсеры\report\report\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Парсеры\report\report\bin\roslyn\System.AppContext.dll
+D:\Парсеры\report\report\bin\roslyn\System.Collections.Immutable.dll
+D:\Парсеры\report\report\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Парсеры\report\report\bin\roslyn\System.IO.FileSystem.dll
+D:\Парсеры\report\report\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Парсеры\report\report\bin\roslyn\System.Reflection.Metadata.dll
+D:\Парсеры\report\report\bin\roslyn\vbc.exe
+D:\Парсеры\report\report\bin\roslyn\vbc.exe.config
+D:\Парсеры\report\report\bin\roslyn\vbc.rsp
+D:\Парсеры\report\report\bin\roslyn\VBCSCompiler.exe
+D:\Парсеры\report\report\bin\roslyn\VBCSCompiler.exe.config
+D:\Парсеры\report\report\bin\report.dll.config
+D:\Парсеры\report\report\bin\report.dll
+D:\Парсеры\report\report\bin\report.pdb
+D:\Парсеры\report\report\bin\Antlr3.Runtime.dll
+D:\Парсеры\report\report\bin\EntityFramework.dll
+D:\Парсеры\report\report\bin\EntityFramework.SqlServer.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.Agent.Intercept.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.DependencyCollector.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.Web.dll
+D:\Парсеры\report\report\bin\Microsoft.AI.WindowsServer.dll
+D:\Парсеры\report\report\bin\Microsoft.ApplicationInsights.dll
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Парсеры\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Google.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Парсеры\report\report\bin\Microsoft.Web.Infrastructure.dll
+D:\Парсеры\report\report\bin\Mono.Security.dll
+D:\Парсеры\report\report\bin\Newtonsoft.Json.dll
+D:\Парсеры\report\report\bin\Npgsql.dll
+D:\Парсеры\report\report\bin\Npgsql.EntityFramework.dll
+D:\Парсеры\report\report\bin\Owin.dll
+D:\Парсеры\report\report\bin\System.Web.Helpers.dll
+D:\Парсеры\report\report\bin\System.Web.Mvc.dll
+D:\Парсеры\report\report\bin\System.Web.Optimization.dll
+D:\Парсеры\report\report\bin\System.Web.Razor.dll
+D:\Парсеры\report\report\bin\System.Web.WebPages.Deployment.dll
+D:\Парсеры\report\report\bin\System.Web.WebPages.dll
+D:\Парсеры\report\report\bin\System.Web.WebPages.Razor.dll
+D:\Парсеры\report\report\bin\WebGrease.dll
+D:\Парсеры\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Парсеры\report\report\bin\Npgsql.xml
+D:\Парсеры\report\report\bin\Npgsql.EntityFramework.xml
+D:\Парсеры\report\report\bin\System.Web.Helpers.xml
+D:\Парсеры\report\report\bin\System.Web.Mvc.xml
+D:\Парсеры\report\report\bin\System.Web.Optimization.xml
+D:\Парсеры\report\report\bin\System.Web.Razor.xml
+D:\Парсеры\report\report\bin\System.Web.WebPages.xml
+D:\Парсеры\report\report\bin\System.Web.WebPages.Deployment.xml
+D:\Парсеры\report\report\bin\System.Web.WebPages.Razor.xml
+D:\Парсеры\report\report\bin\Antlr3.Runtime.pdb
+D:\Парсеры\report\report\bin\Newtonsoft.Json.xml
+D:\Парсеры\report\report\bin\EntityFramework.xml
+D:\Парсеры\report\report\bin\EntityFramework.SqlServer.xml
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Парсеры\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Google.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Парсеры\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Парсеры\report\report\bin\Microsoft.ApplicationInsights.xml
+D:\Парсеры\report\report\bin\Microsoft.AI.DependencyCollector.xml
+D:\Парсеры\report\report\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\Парсеры\report\report\bin\Microsoft.AI.WindowsServer.xml
+D:\Парсеры\report\report\bin\Microsoft.AI.Web.xml
+D:\Парсеры\report\report\bin\de\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\es\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\fi\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\fr\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\ja\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\zh-CN\Npgsql.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.Helpers.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.Mvc.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.Optimization.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.Razor.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.WebPages.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.WebPages.Deployment.resources.dll
+D:\Парсеры\report\report\bin\ru\System.Web.WebPages.Razor.resources.dll
+D:\Парсеры\report\report\bin\ru\EntityFramework.resources.dll
+D:\Парсеры\report\report\bin\ru\EntityFramework.SqlServer.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Security.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+D:\Парсеры\report\report\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+D:\Парсеры\report\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+D:\Парсеры\report\report\obj\Debug\report.dll
+D:\Парсеры\report\report\obj\Debug\report.pdb
+D:\Парсеры\report\report\bin\HtmlAgilityPack.dll
+D:\Парсеры\report\report\bin\HtmlAgilityPack.pdb
+D:\Парсеры\report\report\bin\HtmlAgilityPack.xml
+D:\Парсеры\report\report\obj\Debug\report.Migrations.orders.resources
+D:\Парсеры\report\report\obj\Debug\report.csproj.GenerateResource.Cache
+D:\Парсеры\report\report\obj\Debug\report.Migrations.one_to_many.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.s_n.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.NoteName.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.Ustat.resources
+D:\Парсеры\report\report\bin\AjaxControlToolkit.dll
+D:\Парсеры\report\report\obj\Debug\report.Migrations.Product.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.Product1.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.UserProductList.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.Quantity.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.Qua.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.DFlag.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations._new.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.PP.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.vendor.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.numder.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.numder1.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.DInfo.resources
+D:\Парсеры\report\report\bin\PagedList.dll
+D:\Парсеры\report\report\bin\PagedList.Mvc.dll
+D:\Парсеры\report\report\bin\PagedList.xml
+D:\Парсеры\report\report\bin\PagedList.Mvc.xml
+D:\Парсеры\report\report\obj\Debug\report.Migrations.w.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.w1.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.DT.resources
+D:\Парсеры\report\report\obj\Debug\report.Migrations.VC.resources
+I:\report\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+I:\report\report\obj\Debug\report.Migrations.orders.resources
+I:\report\report\obj\Debug\report.Migrations.one_to_many.resources
+I:\report\report\obj\Debug\report.Migrations.s_n.resources
+I:\report\report\obj\Debug\report.Migrations.NoteName.resources
+I:\report\report\obj\Debug\report.Migrations.Ustat.resources
+I:\report\report\obj\Debug\report.Migrations.Product.resources
+I:\report\report\obj\Debug\report.Migrations.Product1.resources
+I:\report\report\obj\Debug\report.Migrations.UserProductList.resources
+I:\report\report\obj\Debug\report.Migrations.Quantity.resources
+I:\report\report\obj\Debug\report.Migrations.Qua.resources
+I:\report\report\obj\Debug\report.Migrations.DFlag.resources
+I:\report\report\obj\Debug\report.Migrations._new.resources
+I:\report\report\obj\Debug\report.Migrations.PP.resources
+I:\report\report\obj\Debug\report.Migrations.vendor.resources
+I:\report\report\obj\Debug\report.Migrations.numder.resources
+I:\report\report\obj\Debug\report.Migrations.numder1.resources
+I:\report\report\obj\Debug\report.Migrations.DInfo.resources
+I:\report\report\obj\Debug\report.Migrations.w.resources
+I:\report\report\obj\Debug\report.Migrations.w1.resources
+I:\report\report\obj\Debug\report.Migrations.DT.resources
+I:\report\report\obj\Debug\report.Migrations.VC.resources
+I:\report\report\obj\Debug\report.csproj.GenerateResource.Cache
+I:\report\report\obj\Debug\report.dll
+I:\report\report\obj\Debug\report.pdb
+I:\report\report\bin\ApplicationInsights.config
+I:\report\report\bin\roslyn\csc.exe
+I:\report\report\bin\roslyn\csc.exe.config
+I:\report\report\bin\roslyn\csc.rsp
+I:\report\report\bin\roslyn\csi.exe
+I:\report\report\bin\roslyn\csi.rsp
+I:\report\report\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\report\report\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\report\report\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\report\report\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\report\report\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\report\report\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\report\report\bin\roslyn\System.AppContext.dll
+I:\report\report\bin\roslyn\System.Collections.Immutable.dll
+I:\report\report\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\report\report\bin\roslyn\System.IO.FileSystem.dll
+I:\report\report\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\report\report\bin\roslyn\System.Reflection.Metadata.dll
+I:\report\report\bin\roslyn\vbc.exe
+I:\report\report\bin\roslyn\vbc.exe.config
+I:\report\report\bin\roslyn\vbc.rsp
+I:\report\report\bin\roslyn\VBCSCompiler.exe
+I:\report\report\bin\roslyn\VBCSCompiler.exe.config
+I:\report\report\bin\report.dll.config
+I:\report\report\bin\report.dll
+I:\report\report\bin\report.pdb
+I:\report\report\bin\AjaxControlToolkit.dll
+I:\report\report\bin\Antlr3.Runtime.dll
+I:\report\report\bin\EntityFramework.dll
+I:\report\report\bin\EntityFramework.SqlServer.dll
+I:\report\report\bin\HtmlAgilityPack.dll
+I:\report\report\bin\Microsoft.AI.Agent.Intercept.dll
+I:\report\report\bin\Microsoft.AI.DependencyCollector.dll
+I:\report\report\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\report\report\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\report\report\bin\Microsoft.AI.Web.dll
+I:\report\report\bin\Microsoft.AI.WindowsServer.dll
+I:\report\report\bin\Microsoft.ApplicationInsights.dll
+I:\report\report\bin\Microsoft.AspNet.Identity.Core.dll
+I:\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+I:\report\report\bin\Microsoft.AspNet.Identity.Owin.dll
+I:\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\report\report\bin\Microsoft.Owin.dll
+I:\report\report\bin\Microsoft.Owin.Host.SystemWeb.dll
+I:\report\report\bin\Microsoft.Owin.Security.Cookies.dll
+I:\report\report\bin\Microsoft.Owin.Security.dll
+I:\report\report\bin\Microsoft.Owin.Security.Facebook.dll
+I:\report\report\bin\Microsoft.Owin.Security.Google.dll
+I:\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+I:\report\report\bin\Microsoft.Owin.Security.OAuth.dll
+I:\report\report\bin\Microsoft.Owin.Security.Twitter.dll
+I:\report\report\bin\Microsoft.Web.Infrastructure.dll
+I:\report\report\bin\Mono.Security.dll
+I:\report\report\bin\Newtonsoft.Json.dll
+I:\report\report\bin\Npgsql.dll
+I:\report\report\bin\Npgsql.EntityFramework.dll
+I:\report\report\bin\Owin.dll
+I:\report\report\bin\PagedList.dll
+I:\report\report\bin\PagedList.Mvc.dll
+I:\report\report\bin\System.Web.Helpers.dll
+I:\report\report\bin\System.Web.Mvc.dll
+I:\report\report\bin\System.Web.Optimization.dll
+I:\report\report\bin\System.Web.Razor.dll
+I:\report\report\bin\System.Web.WebPages.Deployment.dll
+I:\report\report\bin\System.Web.WebPages.dll
+I:\report\report\bin\System.Web.WebPages.Razor.dll
+I:\report\report\bin\WebGrease.dll
+I:\report\report\bin\HtmlAgilityPack.pdb
+I:\report\report\bin\HtmlAgilityPack.xml
+I:\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\report\report\bin\Npgsql.xml
+I:\report\report\bin\Npgsql.EntityFramework.xml
+I:\report\report\bin\PagedList.xml
+I:\report\report\bin\PagedList.Mvc.xml
+I:\report\report\bin\System.Web.Helpers.xml
+I:\report\report\bin\System.Web.Mvc.xml
+I:\report\report\bin\System.Web.Optimization.xml
+I:\report\report\bin\System.Web.Razor.xml
+I:\report\report\bin\System.Web.WebPages.xml
+I:\report\report\bin\System.Web.WebPages.Deployment.xml
+I:\report\report\bin\System.Web.WebPages.Razor.xml
+I:\report\report\bin\Antlr3.Runtime.pdb
+I:\report\report\bin\Newtonsoft.Json.xml
+I:\report\report\bin\EntityFramework.xml
+I:\report\report\bin\EntityFramework.SqlServer.xml
+I:\report\report\bin\Microsoft.AspNet.Identity.Core.xml
+I:\report\report\bin\Microsoft.AspNet.Identity.Owin.xml
+I:\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+I:\report\report\bin\Microsoft.Owin.xml
+I:\report\report\bin\Microsoft.Owin.Host.SystemWeb.xml
+I:\report\report\bin\Microsoft.Owin.Security.xml
+I:\report\report\bin\Microsoft.Owin.Security.Facebook.xml
+I:\report\report\bin\Microsoft.Owin.Security.Cookies.xml
+I:\report\report\bin\Microsoft.Owin.Security.OAuth.xml
+I:\report\report\bin\Microsoft.Owin.Security.Google.xml
+I:\report\report\bin\Microsoft.Owin.Security.Twitter.xml
+I:\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+I:\report\report\bin\Microsoft.ApplicationInsights.xml
+I:\report\report\bin\Microsoft.AI.DependencyCollector.xml
+I:\report\report\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\report\report\bin\Microsoft.AI.WindowsServer.xml
+I:\report\report\bin\Microsoft.AI.Web.xml
+I:\report\report\bin\de\Npgsql.resources.dll
+I:\report\report\bin\es\Npgsql.resources.dll
+I:\report\report\bin\fi\Npgsql.resources.dll
+I:\report\report\bin\fr\Npgsql.resources.dll
+I:\report\report\bin\ja\Npgsql.resources.dll
+I:\report\report\bin\zh-CN\Npgsql.resources.dll
+I:\report\report\bin\ru\System.Web.Helpers.resources.dll
+I:\report\report\bin\ru\System.Web.Mvc.resources.dll
+I:\report\report\bin\ru\System.Web.Optimization.resources.dll
+I:\report\report\bin\ru\System.Web.Razor.resources.dll
+I:\report\report\bin\ru\System.Web.WebPages.resources.dll
+I:\report\report\bin\ru\System.Web.WebPages.Deployment.resources.dll
+I:\report\report\bin\ru\System.Web.WebPages.Razor.resources.dll
+I:\report\report\bin\ru\EntityFramework.resources.dll
+I:\report\report\bin\ru\EntityFramework.SqlServer.resources.dll
+I:\report\report\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+I:\report\report\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+I:\report\report\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Security.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+I:\report\report\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ApplicationInsights.config
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.exe
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.exe.config
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.rsp
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\csi.exe
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\csi.rsp
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.AppContext.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.exe
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.exe.config
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.rsp
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\VBCSCompiler.exe
+C:\Users\Andrey\Desktop\report\report\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Andrey\Desktop\report\report\bin\report.dll.config
+C:\Users\Andrey\Desktop\report\report\bin\report.dll
+C:\Users\Andrey\Desktop\report\report\bin\report.pdb
+C:\Users\Andrey\Desktop\report\report\bin\AjaxControlToolkit.dll
+C:\Users\Andrey\Desktop\report\report\bin\Antlr3.Runtime.dll
+C:\Users\Andrey\Desktop\report\report\bin\EntityFramework.dll
+C:\Users\Andrey\Desktop\report\report\bin\EntityFramework.SqlServer.dll
+C:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Web.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Andrey\Desktop\report\report\bin\Mono.Security.dll
+C:\Users\Andrey\Desktop\report\report\bin\Newtonsoft.Json.dll
+C:\Users\Andrey\Desktop\report\report\bin\Npgsql.dll
+C:\Users\Andrey\Desktop\report\report\bin\Npgsql.EntityFramework.dll
+C:\Users\Andrey\Desktop\report\report\bin\Owin.dll
+C:\Users\Andrey\Desktop\report\report\bin\PagedList.dll
+C:\Users\Andrey\Desktop\report\report\bin\PagedList.Mvc.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Helpers.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Mvc.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Optimization.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Razor.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.dll
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Razor.dll
+C:\Users\Andrey\Desktop\report\report\bin\WebGrease.dll
+C:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.pdb
+C:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Andrey\Desktop\report\report\bin\Npgsql.xml
+C:\Users\Andrey\Desktop\report\report\bin\Npgsql.EntityFramework.xml
+C:\Users\Andrey\Desktop\report\report\bin\PagedList.xml
+C:\Users\Andrey\Desktop\report\report\bin\PagedList.Mvc.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Helpers.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Mvc.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Optimization.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.Razor.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Razor.xml
+C:\Users\Andrey\Desktop\report\report\bin\Antlr3.Runtime.pdb
+C:\Users\Andrey\Desktop\report\report\bin\Newtonsoft.Json.xml
+C:\Users\Andrey\Desktop\report\report\bin\EntityFramework.xml
+C:\Users\Andrey\Desktop\report\report\bin\EntityFramework.SqlServer.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Web.xml
+C:\Users\Andrey\Desktop\report\report\bin\de\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\es\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\fi\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\fr\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ja\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\zh-CN\Npgsql.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Optimization.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.Razor.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\EntityFramework.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+C:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.orders.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.one_to_many.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.s_n.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.NoteName.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Ustat.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Product.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Product1.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.UserProductList.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Quantity.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Qua.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.DFlag.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations._new.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.PP.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.vendor.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.numder.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.numder1.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.DInfo.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.w.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.w1.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.DT.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.VC.resources
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.csproj.GenerateResource.Cache
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.dll
+C:\Users\Andrey\Desktop\report\report\obj\Debug\report.pdb
+W:\Users\Andrey\Desktop\report\report\bin\ApplicationInsights.config
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.exe
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.exe.config
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\csc.rsp
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\csi.exe
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\csi.rsp
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.CSharp.Core.targets
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\Microsoft.VisualBasic.Core.targets
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.AppContext.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Collections.Immutable.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Diagnostics.StackTrace.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.IO.FileSystem.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.IO.FileSystem.Primitives.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\System.Reflection.Metadata.dll
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.exe
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.exe.config
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\vbc.rsp
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\VBCSCompiler.exe
+W:\Users\Andrey\Desktop\report\report\bin\roslyn\VBCSCompiler.exe.config
+W:\Users\Andrey\Desktop\report\report\bin\report.dll.config
+W:\Users\Andrey\Desktop\report\report\bin\report.dll
+W:\Users\Andrey\Desktop\report\report\bin\report.pdb
+W:\Users\Andrey\Desktop\report\report\bin\AjaxControlToolkit.dll
+W:\Users\Andrey\Desktop\report\report\bin\Antlr3.Runtime.dll
+W:\Users\Andrey\Desktop\report\report\bin\EntityFramework.dll
+W:\Users\Andrey\Desktop\report\report\bin\EntityFramework.SqlServer.dll
+W:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Agent.Intercept.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.DependencyCollector.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.PerfCounterCollector.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.ServerTelemetryChannel.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Web.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.WindowsServer.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.ApplicationInsights.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Core.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Owin.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Host.SystemWeb.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Cookies.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Facebook.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Google.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.OAuth.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Twitter.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Web.Infrastructure.dll
+W:\Users\Andrey\Desktop\report\report\bin\Mono.Security.dll
+W:\Users\Andrey\Desktop\report\report\bin\Newtonsoft.Json.dll
+W:\Users\Andrey\Desktop\report\report\bin\Npgsql.dll
+W:\Users\Andrey\Desktop\report\report\bin\Npgsql.EntityFramework.dll
+W:\Users\Andrey\Desktop\report\report\bin\Owin.dll
+W:\Users\Andrey\Desktop\report\report\bin\PagedList.dll
+W:\Users\Andrey\Desktop\report\report\bin\PagedList.Mvc.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Helpers.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Mvc.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Optimization.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Razor.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Deployment.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Razor.dll
+W:\Users\Andrey\Desktop\report\report\bin\WebGrease.dll
+W:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.pdb
+W:\Users\Andrey\Desktop\report\report\bin\HtmlAgilityPack.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+W:\Users\Andrey\Desktop\report\report\bin\Npgsql.xml
+W:\Users\Andrey\Desktop\report\report\bin\Npgsql.EntityFramework.xml
+W:\Users\Andrey\Desktop\report\report\bin\PagedList.xml
+W:\Users\Andrey\Desktop\report\report\bin\PagedList.Mvc.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Helpers.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Mvc.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Optimization.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Razor.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Deployment.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.WebPages.Razor.xml
+W:\Users\Andrey\Desktop\report\report\bin\Antlr3.Runtime.pdb
+W:\Users\Andrey\Desktop\report\report\bin\Newtonsoft.Json.xml
+W:\Users\Andrey\Desktop\report\report\bin\EntityFramework.xml
+W:\Users\Andrey\Desktop\report\report\bin\EntityFramework.SqlServer.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Core.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.Owin.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Host.SystemWeb.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Facebook.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Cookies.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.OAuth.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Google.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.Twitter.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.ApplicationInsights.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.DependencyCollector.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.ServerTelemetryChannel.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.WindowsServer.xml
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.AI.Web.xml
+W:\Users\Andrey\Desktop\report\report\bin\de\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\es\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\fi\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\fr\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ja\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\zh-CN\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Helpers.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Mvc.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Optimization.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.Razor.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.Deployment.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\System.Web.WebPages.Razor.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\EntityFramework.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\EntityFramework.SqlServer.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.dll
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.pdb
+W:\Users\Andrey\Desktop\report\report\bin\SgmlReaderDll.dll
+W:\Users\Andrey\Desktop\report\report\bin\Hangfire.Core.dll
+W:\Users\Andrey\Desktop\report\report\bin\Hangfire.SqlServer.dll
+W:\Users\Andrey\Desktop\report\report\bin\Hangfire.Core.xml
+W:\Users\Andrey\Desktop\report\report\bin\Hangfire.SqlServer.xml
+W:\Users\Andrey\Desktop\report\report\bin\es\Hangfire.Core.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\zh\Hangfire.Core.resources.dll
+W:\Users\Andrey\Desktop\report\report\bin\DocumentFormat.OpenXml.dll
+W:\Users\Andrey\Desktop\report\report\bin\Microsoft.Win32.Primitives.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.AppContext.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Console.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Diagnostics.DiagnosticSource.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Globalization.Calendars.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.IO.Compression.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.IO.Compression.ZipFile.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.IO.FileSystem.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.IO.FileSystem.Primitives.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.IO.Packaging.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Net.Http.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Net.Sockets.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Security.Cryptography.Algorithms.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Security.Cryptography.Encoding.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Security.Cryptography.Primitives.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Security.Cryptography.X509Certificates.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Xml.ReaderWriter.dll
+W:\Users\Andrey\Desktop\report\report\bin\DocumentFormat.OpenXml.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Diagnostics.DiagnosticSource.xml
+W:\Users\Andrey\Desktop\report\report\bin\EPPlus.dll
+W:\Users\Andrey\Desktop\report\report\bin\EPPlus.xml
+W:\Users\Andrey\Desktop\report\report\bin\CsQuery.dll
+W:\Users\Andrey\Desktop\report\report\bin\WebDriver.dll
+W:\Users\Andrey\Desktop\report\report\bin\CsQuery.xml
+W:\Users\Andrey\Desktop\report\report\bin\WebDriver.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Net.Http.Formatting.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Http.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Http.WebHost.dll
+W:\Users\Andrey\Desktop\report\report\bin\System.Net.Http.Formatting.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Http.xml
+W:\Users\Andrey\Desktop\report\report\bin\System.Web.Http.WebHost.xml
+W:\Users\Andrey\Desktop\report\report\bin\Quartz.dll
+W:\Users\Andrey\Desktop\report\report\bin\Quartz.pdb
+W:\Users\Andrey\Desktop\report\report\bin\Quartz.xml
+W:\Users\Andrey\Desktop\report\report\bin\NickBuhro.Translit.dll
+W:\Users\Andrey\Desktop\report\report\bin\NickBuhro.Translit.xml
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.Tracking.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.csproj.GenerateResource.Cache
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.SN.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.MToM.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.MToM1.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.FS.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.xml.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations._new.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.PE.resources
+W:\Users\Andrey\Desktop\report\report\obj\Debug\report.Migrations.PE1.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ApplicationInsights.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csc.exe
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csc.exe.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csc.rsp
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csi.exe
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csi.rsp
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CodeAnalysis.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.CSharp.Core.targets
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.VisualBasic.Core.targets
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.AppContext.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Collections.Immutable.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Diagnostics.StackTrace.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.IO.FileSystem.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.IO.FileSystem.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Reflection.Metadata.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\vbc.exe
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\vbc.exe.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\vbc.rsp
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\VBCSCompiler.exe
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\VBCSCompiler.exe.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\report.dll.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\report.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\report.pdb
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\AjaxControlToolkit.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Antlr3.Runtime.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\CsQuery.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\DocumentFormat.OpenXml.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EntityFramework.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EntityFramework.SqlServer.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EPPlus.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Hangfire.Core.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Hangfire.SqlServer.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\HtmlAgilityPack.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.Agent.Intercept.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.DependencyCollector.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.PerfCounterCollector.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.ServerTelemetryChannel.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.Web.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.WindowsServer.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.ApplicationInsights.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.Core.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.Owin.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Host.SystemWeb.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Cookies.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Facebook.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Google.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.OAuth.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Twitter.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Web.Infrastructure.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Win32.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Mono.Security.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Newtonsoft.Json.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\NickBuhro.Translit.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Npgsql.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Npgsql.EntityFramework.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Owin.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\PagedList.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\PagedList.Mvc.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Quartz.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\SgmlReaderDll.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.AppContext.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Console.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Diagnostics.DiagnosticSource.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Globalization.Calendars.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.IO.Compression.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.IO.Compression.ZipFile.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.IO.FileSystem.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.IO.FileSystem.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.IO.Packaging.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Net.Http.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Net.Http.Formatting.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Net.Sockets.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Runtime.InteropServices.RuntimeInformation.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Security.Cryptography.Algorithms.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Security.Cryptography.Encoding.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Security.Cryptography.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Security.Cryptography.X509Certificates.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Helpers.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Http.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Http.WebHost.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Mvc.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Optimization.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Razor.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.Deployment.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.Razor.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Xml.ReaderWriter.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\WebDriver.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\WebGrease.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\CsQuery.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\DocumentFormat.OpenXml.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EPPlus.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Hangfire.Core.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Hangfire.SqlServer.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\HtmlAgilityPack.pdb
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\HtmlAgilityPack.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\NickBuhro.Translit.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Npgsql.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Npgsql.EntityFramework.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\PagedList.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\PagedList.Mvc.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Quartz.pdb
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Quartz.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Diagnostics.DiagnosticSource.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Net.Http.Formatting.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Http.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Http.WebHost.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Helpers.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Mvc.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Optimization.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.Razor.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.Deployment.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\System.Web.WebPages.Razor.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\WebDriver.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Antlr3.Runtime.pdb
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Newtonsoft.Json.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EntityFramework.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\EntityFramework.SqlServer.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.Core.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.Owin.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Host.SystemWeb.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Facebook.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Cookies.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.OAuth.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Google.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.Twitter.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.ApplicationInsights.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.DependencyCollector.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.ServerTelemetryChannel.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.WindowsServer.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\Microsoft.AI.Web.xml
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\es\Hangfire.Core.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\zh\Hangfire.Core.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\de\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\es\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\fi\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\fr\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ja\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\zh-CN\Npgsql.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.Helpers.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.Mvc.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.Optimization.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.Razor.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.WebPages.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.WebPages.Deployment.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\System.Web.WebPages.Razor.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\EntityFramework.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\EntityFramework.SqlServer.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.AspNet.Identity.Core.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.AspNet.Identity.Owin.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Host.SystemWeb.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Security.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Security.Facebook.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Security.Google.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Security.Twitter.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\ru\Microsoft.Owin.Security.MicrosoftAccount.resources.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.csprojResolveAssemblyReference.cache
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.Tracking.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.SN.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.MToM.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.MToM1.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.FS.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.xml.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations._new.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.PE.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.Migrations.PE1.resources
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.csproj.GenerateResource.Cache
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\obj\Debug\report.pdb
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\csi.exe.config
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.Managed.Core.targets
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\Microsoft.Win32.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Console.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Globalization.Calendars.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.IO.Compression.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.IO.Compression.ZipFile.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Net.Http.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Net.Sockets.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Security.Cryptography.Encoding.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Security.Cryptography.Primitives.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Text.Encoding.CodePages.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Threading.Tasks.Extensions.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.ValueTuple.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Xml.ReaderWriter.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Xml.XmlDocument.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Xml.XPath.dll
+W:\Users\Andrey\Desktop\всякая всякая хрень\report\report\bin\roslyn\System.Xml.XPath.XDocument.dll

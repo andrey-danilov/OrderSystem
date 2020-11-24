@@ -1,0 +1,29 @@
+﻿
+
+@using (Html.BeginForm("CreateXML", "Shops", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    
+    <div class="form-horizontal">
+        <div id="multiple">
+            <input type="text" name="name" class="form-control" placeholder="Имя поставщика"/>
+            <input type="text" name="Number" class="form-control" placeholder="Номер поставцика"/>
+            <input type="text" name="Phone" class="form-control" placeholder="Номер телефона" />
+            <p><label>XML File</label><input type="file" class="single" name="files" /></p>
+            <p><label>Exel File</label><input type="file" class="single" name="files" /></p>
+</div>
+    <button class="btn btn-default">Добавить</button>
+    </div>
+}
+@section Scripts{
+    <script type="text/javascript">
+        $(function () {
+            if(window.FileReader != null){
+                $('#single').hide();
+                $('.single').prop('disabled', true);
+            } else {
+                $('#multiple').hide();
+                $('.multiple').prop('disabled', true);
+            }
+        });
+    </script>
+}

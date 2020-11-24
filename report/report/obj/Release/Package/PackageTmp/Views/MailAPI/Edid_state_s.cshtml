@@ -1,0 +1,31 @@
+﻿@model  report.Models.Status
+
+
+@{
+
+    if (Model.flag)
+    {
+        @Ajax.ActionLink(Model.StatusName, "Edid_state_s", "Order", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "Status_" + Model.Id }, new { @style = "color: #00ff00; margin-right: 10px;", @name = Model.StatusName })         
+    }
+    else
+    {
+        if (Model.StatusName.Equals("Выполнен "))
+        {
+            @Ajax.ActionLink(Model.StatusName, "Edid_DoneState_s", "Order", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "Status_" + Model.Id }, new { @style = "color: #ff0000; margin-right: 10px;", @name = Model.StatusName })
+        }
+        else if (Model.StatusName.Equals("Отменен "))
+        {
+            @Ajax.ActionLink(Model.StatusName, "Edid_CanselState_s", "Order", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "Status_" + Model.Id }, new { @style = "color: #ff0000; margin-right: 10px;", @name = Model.StatusName })
+        }
+        else
+        {
+            @Ajax.ActionLink(Model.StatusName, "Edid_state_s", "Order", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "Status_" + Model.Id }, new { @style = "color: #ff0000; margin-right: 10px;", @name = Model.StatusName })
+        }
+
+    }
+
+}
+    @section Scripts {
+        @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

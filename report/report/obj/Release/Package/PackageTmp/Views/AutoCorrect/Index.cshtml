@@ -1,0 +1,74 @@
+﻿@model List<report.Models.AutoCorrect>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div id="req"></div>
+@Html.Partial("Filter" , new report.Models.AutoCorrect() { ShopName = ViewBag.Name as string })
+<div  style="clear:both;">
+<label id="linkAddItem" onclick="FormAddItem()"  style="padding-top:10px;"><a>Добавить новый елемент</a></label>
+<div hidden id="AddItem">@Html.Partial("AddItem", new report.Models.AutoCorrect(false) { ShopName= ViewBag.Name as string })</div>
+<label id="linkAddItemHid" onclick="hidFormAddItem()" hidden><a>Скрыть</a></label>
+<script>
+    function FormAddItem() {
+        document.getElementById("linkAddItem").hidden = false;
+        document.getElementById("AddItem").hidden = false;
+        document.getElementById("linkAddItemHid").hidden = false;
+    }
+    function hidFormAddItem() {
+        document.getElementById("linkAddItem").hidden = false;
+        document.getElementById("AddItem").hidden = true;
+        document.getElementById("linkAddItemHid").hidden = true;
+    }
+</script>
+    </div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayName("Sku")
+        </th>
+        <th>
+            @Html.DisplayName("Поле наименование")
+        </th>
+        <th>
+            @Html.DisplayName("Метод обработки")
+        </th>
+        <th>
+            @Html.DisplayName("Позиция начала")
+        </th>
+        <th>
+            @Html.DisplayName("Позиция окончания")
+        </th>
+        <th>
+            @Html.DisplayName("Поле описания")
+        </th>
+        <th>
+            @Html.DisplayName("Метод обработки")
+        </th>
+        <th>
+            @Html.DisplayName("Позиция начала")
+        </th>
+        <th>
+            @Html.DisplayName("Позиция онончания")
+        </th>
+        <th>
+            @Html.DisplayName("Разновидность")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr id="AutoCorrect_@item.id">
+        @Html.Partial("AutoCorrectDetails", item)
+    </tr>
+}
+
+</table>
+
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

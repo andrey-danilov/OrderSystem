@@ -1,0 +1,137 @@
+﻿@model PagedList.IPagedList<report.Models.ProductPars>
+@using PagedList.Mvc;
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+
+<table class="table">
+    <tr>        
+        <th>
+            @Html.DisplayName("Актуальность")
+        </th>        
+        <th>
+            @Html.DisplayName("SKU")
+        </th>
+        <th>
+            @Html.DisplayName("Наша категория")
+        </th>
+        <th>
+            @Html.DisplayName("Prom категория")
+        </th>
+        <th>
+            @Html.DisplayName("Price")
+        </th>
+        <th>
+            @Html.DisplayName("Old Price")
+        </th>
+        <th>
+            @Html.DisplayName("Url")
+        </th>
+        <th>
+            @Html.DisplayName("Производитель")
+        </th>
+        <th>
+            @Html.DisplayName("Найменование")
+        </th>
+        <th>
+            @Html.DisplayName("Описание")
+        </th>
+        <th>
+            @Html.DisplayName("Ключевые слова")
+        </th>
+        <th>
+            @Html.DisplayName("Количество фото")
+        </th>
+        <th>
+            @Html.DisplayName("Url категории")
+        </th>     
+        <th>
+            @Html.DisplayName("Ошибки")
+        </th>    
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>        
+        <td>
+            @Ajax.ActionLink(item.Relevance.ToString(), "EdidRelevance", new { id = item.Id}, new AjaxOptions { })
+            @*@Html.DisplayFor(modelItem => item.Relevance)*@
+        </td>        
+        <td>
+            @Html.DisplayFor(modelItem => item.VendorCode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OurCategori)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PortalCategoryId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PriceOld)
+        </td>
+        <td>
+            <a href="@item.Url" target="_blank">URL</a>            
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Vendor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Denomination)
+        </td>
+        <td>
+            <textarea name="text">@{@item.Description}</textarea>
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.KeyWords)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Pictures.Count)
+        </td>    
+        <td>
+            <a href="@item.CatUrl" target="_blank">URL</a>    
+            
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Errors)
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td style="width:250px;">
+            @foreach(var par in item.Parameters)
+            {
+                <text>@par.Name</text>
+                <label> : </label>
+                <text>@par.Value </text>
+                <p/>
+            }
+        </td>
+        <td></td>
+        
+    </tr>
+}
+
+</table>
+<div style="clear: both;">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new {page }))
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

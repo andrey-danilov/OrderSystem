@@ -1,0 +1,70 @@
+﻿@model report.Models.SearchOrderProm
+
+@using (Ajax.BeginForm("Search", "Index", new AjaxOptions { UpdateTargetId = "ListOrders",
+                                                            InsertionMode = InsertionMode.Replace ,
+                                                            LoadingElementId = "loading",
+                                                            LoadingElementDuration = 1000}, 
+                                                            htmlAttributes: new {  }))
+{
+
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+    <h4>OrderProm</h4>
+    <hr />
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+   
+        <div  style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.Order_Number, new { htmlAttributes = new { @class = "form-control", placeholder = "Номер заказа",  style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.Order_Number, "", new { @class = "text-danger" })
+        </div>
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", placeholder = "Телефон", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+        </div>
+    
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.TotalPrice, new { htmlAttributes = new { @class = "form-control", placeholder = "Стоимость заказа", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.TotalPrice, "", new { @class = "text-danger" })
+        </div>
+
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.WaybillNumber, new { htmlAttributes = new { @class = "form-control", placeholder = "ТТН", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.WaybillNumber, "", new { @class = "text-danger" })
+        </div>
+
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.DeliveryInfo, new { htmlAttributes = new { @class = "form-control", placeholder = "Адресс", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.DeliveryInfo, "", new { @class = "text-danger" })
+        </div>
+        <div style="float:left; padding-right:15px;">
+            @*@Html.EditorFor(model => model.ShopNumber, new { htmlAttributes = new { @class = "form-control", value = "x-", placeholder = "Номер продукта", style = "padding:0px;" } })*@
+            <input class="form-control text-box single-line" id="ShopNumber" name="ShopNumber" placeholder="Номер продукта" style="padding:0px;" type="text" value="x-">
+            @Html.ValidationMessageFor(model => model.ShopNumber, "", new { @class = "text-danger" })
+        </div>
+
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.Note, new { htmlAttributes = new { @class = "form-control", placeholder = "Коментарий", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+        </div>
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.ProductPrice, new { htmlAttributes = new { @class = "form-control", placeholder = "Цена продукта", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.ProductPrice, "", new { @class = "text-danger" })
+        </div>
+        <div style="float:left; padding-right:15px;">
+            @Html.EditorFor(model => model.ProductName, new { htmlAttributes = new { @class = "form-control", placeholder = "Наименование продукта", style = "padding:0px;" } })
+            @Html.ValidationMessageFor(model => model.ProductName, "", new { @class = "text-danger" })
+        </div>
+
+            <div >
+                <input type="submit" value="Поиск" class="btn btn-default" />
+            </div>
+        
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

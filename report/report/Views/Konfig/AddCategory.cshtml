@@ -1,0 +1,197 @@
+﻿@model report.Models.Category
+
+@using (Ajax.BeginForm("AddCategory", "Konfig", new AjaxOptions { UpdateTargetId = "req" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.id)
+    <div class="form-horizontal">
+
+        <div class="col-md-10">
+            @Html.Label("Адрес категории")
+            @Html.EditorFor(model => model.url, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.url, "", new { @class = "text-danger" })
+        </div>
+
+
+        <div class="col-md-10">
+
+            @for (var i = 0; i < Model.SubCatecories.Count; i++)
+            {
+                <table>
+                    <tr>
+                        <td>
+                            <table>
+                                <tr>
+                                    <td>
+                                        @Html.Label("Найменоване категории")
+                                    </td>
+                                    <td>
+                                       @{
+                                           var fid = "SubCatecories_" + i + "__NameOurCategory";
+                                           var fName = "SubCatecories[" + i + "].NameOurCategory";
+                                        }
+                                        <input type="text" name=@{@fName} id="@{@fid}" data-autocomplete-source='@Url.Action("AutocompleteSearch", "Konfig")'  class = "form-control" value=Model.SubCatecories[i].NameOurCategory/>
+                                        @*@Html.TextBoxFor(m => Model.SubCatecories[i].NameOurCategory, new { htmlAttributes = new { @class = "form-control" } })*@
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].NameOurCategory, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        @Html.Label("Скидка")
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.SubCatecories[i].discount, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].discount, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        @Html.Label("Фильтр цен")
+                                    </td>
+                                    <td>
+                                        @Html.DisplayFor(m => Model.SubCatecories[i].price, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.DropDownListFor(m => Model.SubCatecories[i].price, ViewBag.PriceType as SelectList)
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].price, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        @Html.Label("Обработка цены")
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.SubCatecories[i].price_processing, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].price_processing, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        @Html.Label("Фильтр имени")
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.SubCatecories[i].СombinationName, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].СombinationName, "", new { @class = "text-danger" })
+
+                                        @Html.EditorFor(m => Model.SubCatecories[i].СombinationValue)
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].СombinationValue, "", new { @class = "text-danger" })
+
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        @Html.Label("Производитель")
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.SubCatecories[i].Vendor, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].Vendor, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+
+
+                                <tr>
+                                    <td>
+                                        @Html.Label("Наличие основных характеристик")
+                                    </td>
+                                    <td class="col-md-10">
+                                        @Html.EditorFor(m => Model.SubCatecories[i].EnableMainCharacteristics)
+                                        @Html.ValidationMessageFor(m => Model.SubCatecories[i].EnableMainCharacteristics, "", new { @class = "text-danger" })
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td>
+                            @Html.Label("Характеристики")
+                            @for (var j = 0; j < Model.SubCatecories[i].Characteristics.Count; j++)
+                            {
+                                <table>
+                                    <tr>
+                                        <td>
+                                            @Html.Label("Путь главной ячейки")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].Main, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].Main, "", new { @class = "text-danger" })
+                                        </td>
+                                        <td>
+                                            @Html.Label("Метод обработки")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].MainBy, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].MainBy, "", new { @class = "text-danger" })
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.Label("Путь/Найменование ячейки названия")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].Name, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].Name, "", new { @class = "text-danger" })
+                                        </td>
+                                        <td>
+                                            @Html.Label("Метод обработки")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].NameBy, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].NameBy, "", new { @class = "text-danger" })
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            @Html.Label("Путь/Найменование ячейки значения")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].Value, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].Value, "", new { @class = "text-danger" })
+                                        </td>
+                                        <td>
+                                            @Html.Label("Метод обработки")
+                                        </td>
+                                        <td>
+                                            @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].ValueBy, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].ValueBy, "", new { @class = "text-danger" })
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        @for (var q = 0; q < Model.SubCatecories[i].Characteristics[j].Exceptions.Count; q++)
+                                        {
+                                            <td>
+                                                @Html.Label("Найменовение исключения")
+                                            </td>
+                                            <td>
+                                                @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].Exceptions[q].name, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].Exceptions[q].name, "", new { @class = "text-danger" })
+                                            </td>
+                                            <td>
+                                                @Html.Label("Значение исключения")
+                                            </td>
+                                            <td>
+                                                @Html.EditorFor(m => Model.SubCatecories[i].Characteristics[j].Exceptions[q].value, new { htmlAttributes = new { @class = "form-control" } })
+                                                @Html.ValidationMessageFor(m => Model.SubCatecories[i].Characteristics[j].Exceptions[q].value, "", new { @class = "text-danger" })
+                                            </td>
+                                        }
+                                    </tr>
+                                </table>
+                                <hr style="margin:0px; border-top-color:blue;">
+                            }
+                            @Ajax.ActionLink("Добавть характеристику", "AddCharacteristicNew", new {SubId = i, Count = Model.SubCatecories[i].Characteristics.Count }, new AjaxOptions {}, new { })
+                        </td>
+                    </tr>
+                </table>
+                <hr style="margin:0px; border-top-color:blue;">
+            @Ajax.ActionLink("Удалить подкатегорию", "RemoveSubCatecoryNew", new { idSub = i.ToString() }, new AjaxOptions { UpdateTargetId = "NewCategory" }, new { })
+            }
+            @Ajax.ActionLink("Добавть подкатегорию", "AddSubCatecoryNew", new { id = Model.id }, new AjaxOptions { UpdateTargetId= "NewCategory" }, new {})
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+
+    </div>
+}

@@ -1,0 +1,54 @@
+﻿@model report.Models.OrderProm
+
+@using (Ajax.BeginForm("Save_changes", "Order", new AjaxOptions{ UpdateTargetId = "form_" + Model.Id  , InsertionMode = InsertionMode.Replace }))
+{
+    @Html.AntiForgeryToken()
+    
+    <tr class="form-horizontal">
+       
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+        @Html.HiddenFor(model => model.Id_User)
+        @Html.HiddenFor(model => model.number)
+        @Html.HiddenFor(model => model.Data)
+            
+       
+            <td class="col-md-10" style="width:10%;">
+                @Html.EditorFor(model => model.Order_Number, new { htmlAttributes = new { @class = "form-control", value = Model.Order_Number } })
+                @Html.ValidationMessageFor(model => model.Order_Number, "", new { @class = "text-danger" })
+            </td>
+        
+            <td class="col-md-10" style="width:15%;">
+                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", value = Model.Phone } })
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+            </td>
+            <td class="col-md-10" style="width:10%;">
+                @Html.EditorFor(model => model.TotalPrice, new { htmlAttributes = new { @class = "form-control", value = Model.TotalPrice } })
+                @Html.ValidationMessageFor(model => model.TotalPrice, "", new { @class = "text-danger" })
+            </td>
+        
+
+        <td class="col-md-10" style="width:10%; ">
+            @Html.EditorFor(model => model.WaybillNumber, new { htmlAttributes = new { @class = "form-control", value = Model.WaybillNumber } })
+
+            @Html.ValidationMessageFor(model => model.WaybillNumber, "", new { @class = "text-danger" })
+        </td>
+        
+        <td class="col-md-10" style="width:10%;">
+            @Html.TextAreaFor(model => model.DeliveryInfo, new { @class = "form-control", value = Model.DeliveryInfo })
+
+            @Html.ValidationMessageFor(model => model.DeliveryInfo, "", new { @class = "text-danger" })
+        </td>
+            
+        
+            <td class="col-md-10" style="width:10%; float:right;">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </td>
+        </tr>
+   
+}
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

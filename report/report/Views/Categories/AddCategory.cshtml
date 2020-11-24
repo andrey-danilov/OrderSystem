@@ -1,0 +1,25 @@
+﻿@model report.Models.ShopCategories
+
+@using (Ajax.BeginForm("AddCategory", "Categories", new AjaxOptions {}))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+    <td>
+        @Html.EditorFor(model => model.NumCat, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.NumCat, "", new { @class = "text-danger" })
+    </td>
+    <td>
+        @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+
+    </td>
+    <td>
+        @Html.EditorFor(model => model.parentNum, new { htmlAttributes = new { @class = "form-control" } })
+        @Html.ValidationMessageFor(model => model.parentNum, "", new { @class = "text-danger" })
+    </td>
+    <td>
+        <input type="submit" value="Save" class="btn btn-default" />
+    </td>
+}
+

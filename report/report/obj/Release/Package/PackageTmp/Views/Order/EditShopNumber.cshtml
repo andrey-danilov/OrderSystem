@@ -1,0 +1,14 @@
+﻿@model report.Models.OrderProm
+
+@using (Ajax.BeginForm("EditShopNumber", "Order", new AjaxOptions { }))
+{
+    @Html.AntiForgeryToken()
+
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.Id_User)
+    @Html.HiddenFor(model => model.number)
+    string val = (String.IsNullOrEmpty(Model.ShopNumber)) ? "x-" : Model.ShopNumber;
+   
+    <input class="form-control text-box single-line" id="ShopNumber" name="ShopNumber" type="text" value=@{@val}>
+    <input type="submit" value="Save" class="btn btn-default" />
+}

@@ -1,0 +1,101 @@
+﻿@model PagedList.IPagedList<report.Models.OrderProm>
+@using PagedList.Mvc;
+<script src="https://cdn.rawgit.com/zenorocha/clipboard.js/master/dist/clipboard.min.js"></script>
+<div id="L_O">
+    @{
+        ViewBag.Title = "Index";
+    }
+
+    <h2>Ордера</h2>
+
+    
+    <div>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+
+        <div id="OrderPars"></div>
+
+
+
+    </p>
+    <script>
+        function showForm_Order() {
+            document.getElementById("CreatePV").hidden = false;
+            document.getElementById("link").hidden = true;
+        }
+    </script>
+
+    <p id="link" onclick="showForm_Order()"><a>Добавить Заказ</a></p>
+
+        </div>
+    <div>
+        @Ajax.ActionLink("Номера", "SelectPhones", new { }, new AjaxOptions { UpdateTargetId = "Phones" , InsertionMode = InsertionMode.Replace})
+        <br/>
+        @Ajax.ActionLink("Номера не оплаченые", "SelectNotPaidPhones", new { }, new AjaxOptions { UpdateTargetId = "Phones", InsertionMode = InsertionMode.Replace })
+         <div id="Phones">
+
+        </div> 
+    </div>
+    <div id="CreatePV" hidden>
+
+
+        @*@Html.Partial("CreatePV", (report.Models.OrderProm)ViewBag.OrderReq)*@
+        @*@Ajax.ActionLink("Update", "CreatePV", new {}, new AjaxOptions { UpdateTargetId = "Add_order" })*@
+    </div>
+
+
+
+    <div style="clear:both;">@Html.Partial("Stat_ser", (List<report.Models.Status>)ViewBag.OrderSearchList)</div>
+
+    <div>@Html.Partial("Search", new report.Models.SearchOrderProm())</div>
+    <div class="list_orders" id="ListOrder">
+
+        </div>
+    <div><p> </p></div>
+    @*<table class="table">
+        <tr>
+
+            <th>
+                @Html.DisplayName("Номер заказа")
+            </th>            
+            <th>
+                @Html.DisplayName("Номер телефона")
+            </th>
+            <th>
+                @Html.DisplayName("Дата")
+            </th>
+            <th>
+                @Html.DisplayName("Сумма заказа")
+            </th>
+            <th>
+                @Html.DisplayName("Адресс")
+            </th>
+            <th>
+                @Html.DisplayName("Изменить")
+            </th>
+        </tr>
+    </table>*@
+    <div id="loading" style="display:none; color:Red; font-weight:bold;">
+        <p>Идет Поиск...</p>
+    </div>
+
+    <div class="list_orders" id="ListOrders">
+        @Html.Partial("ListOrder", Model)
+
+       
+   </div>
+
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+﻿@model IEnumerable<report.Models.Contacts>
+<table class="table">
+    <tr>
+        <td>
+            @Html.DisplayName("Имя")
+        </td>
+        <td>
+            @Html.DisplayName("Контакт")
+        </td>
+        <td>
+            @Html.DisplayName("Описание")
+        </td>        
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            <label>@{@item.name}</label>
+        </td>
+        <td>
+            <label>@{@item.value}</label>
+        </td>
+        <td>
+            <label>@{@item.description}</label>
+        </td>
+    </tr>
+}
+</table>

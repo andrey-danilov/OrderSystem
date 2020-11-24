@@ -1,0 +1,19 @@
+﻿
+
+@using (Html.BeginForm("Create", "Vendors", FormMethod.Post))
+{
+    
+    <div class="form-horizontal">        
+            
+            <div class="col-md-10">                
+                <input type="text" name="name" class="form-control" placeholder="Имя Бренда"/>
+            </div>
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Добавить бренд" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

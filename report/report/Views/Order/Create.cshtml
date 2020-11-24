@@ -1,0 +1,73 @@
+﻿@model report.Models.OrderProm
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+    <div style="float: left; margin-right:15%;">
+        @Html.Label("Список продуктов")
+        @for (var i = 0; i < Model.Products.Count; i++)
+        {
+            <div>
+                
+                @Html.EditorFor(m => Model.Products[i].VendorCode, new { htmlAttributes = new { placeholder = "Идентификатор продукта" } })
+                
+                @Html.EditorFor(m => Model.Products[i].Quantity, new { htmlAttributes = new { placeholder = "Количество" } })
+            </div>
+            <p></p>
+
+        }
+    </div>
+
+
+    <div class="form-horizontal" style="float: left;">
+        <h4>Информация по заказу</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        
+        
+            
+        
+
+        
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.Phone, new { htmlAttributes = new { @class = "form-control", placeholder = "Номер телефона" } })
+                @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+            </div>
+        
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.DeliveryInfo, new { htmlAttributes = new { @class = "form-control", placeholder = "Адрес доставки" } })
+                @Html.ValidationMessageFor(model => model.DeliveryInfo, "", new { @class = "text-danger" })
+            </div>
+        
+
+        
+            
+        
+       
+
+        
+            <div class="col-md-offset-2 col-md-10" style="margin-left:0%;">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+@Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+@Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

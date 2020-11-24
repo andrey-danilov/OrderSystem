@@ -1,0 +1,55 @@
+﻿@model report.Models.MatchList
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <table>
+
+
+        <tr>
+            <th>
+                @Html.DisplayName("Наименование у поставщика")
+            </th>
+            <td>
+
+                @Html.EditorFor(model => model.shopname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.shopname, "", new { @class = "text-danger" })
+            </td>
+
+            </tr>
+        <tr>
+            <th>
+                @Html.DisplayName("Наименование у нас")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.ourname, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ourname, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayName("Значение у поставщика")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.shopvalue, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.shopvalue, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <th>
+                @Html.DisplayName("Значение у нас")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.ourvalue, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ourvalue, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Create" class="btn btn-default" />
+            </td>
+        </tr>
+    </table>
+
+}

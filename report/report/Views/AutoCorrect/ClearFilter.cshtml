@@ -1,0 +1,4 @@
+﻿@using (Html.BeginForm("ClearFilter", "AutoCorrect"))
+{   <input type="submit" value="Очистить поиск" class="btn btn-default" />
+    <label style=""> @Ajax.ActionLink("Сохранить файл", "SaveToFile", new { }, new AjaxOptions { UpdateTargetId = "req" }, new { })</label>
+}

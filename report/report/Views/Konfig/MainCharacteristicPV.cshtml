@@ -1,0 +1,89 @@
+﻿@model report.Models.Characteristic
+
+@using (Ajax.BeginForm("SaveMainCharacteristicChange", "Konfig", new AjaxOptions { UpdateTargetId = "req" }))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model=>  Model.Id)
+    <table>
+        <tr>
+            <td>
+                @Html.Label("Группа")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.Group, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.Group, "", new { @class = "text-danger" })
+            </td>           
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Путь главной ячейки")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.Main, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.Main, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.Label("Метод обработки")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.MainBy, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.MainBy, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Путь/Найменование ячейки названия")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.Name, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.Label("Метод обработки")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.NameBy, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.NameBy, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.Label("Путь/Найменование ячейки значения")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.Value, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.Value, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.Label("Метод обработки")
+            </td>
+            <td>
+                @Html.EditorFor(m => Model.ValueBy, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(m => Model.ValueBy, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+        <tr>
+            @for (var q = 0; q < Model.Exceptions.Count; q++)
+            {
+                @Html.HiddenFor(model => Model.Exceptions[q].Id)
+                <td>
+                    @Html.Label("Найменовение исключения")
+                </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.Exceptions[q].name, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.Exceptions[q].name, "", new { @class = "text-danger" })
+                                    </td>
+                                    <td>
+                                        @Html.Label("Значение исключения")
+                                    </td>
+                                    <td>
+                                        @Html.EditorFor(m => Model.Exceptions[q].value, new { htmlAttributes = new { @class = "form-control" } })
+                                        @Html.ValidationMessageFor(m => Model.Exceptions[q].value, "", new { @class = "text-danger" })
+                                    </td>
+            }
+        </tr>
+    </table>
+    <label>@Html.ActionLink("Удалить", "DelMainCharacteristic", new { id = Model.Id })</label>
+    <input type="submit" value="Save" class="btn btn-default" />
+}
+

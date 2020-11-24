@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div style="margin-top:100px;">
+    @using (Ajax.BeginForm("Index", new AjaxOptions { UpdateTargetId = "results", InsertionMode = InsertionMode.Replace }))
+    {
+        <input type="text" name="DocumentNumber" placeholder="Номер накладной"/>
+        <input type="submit" value="Поиск" />
+    }
+</div>
+<div id="results"></div>
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

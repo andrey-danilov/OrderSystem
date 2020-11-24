@@ -1,0 +1,46 @@
+﻿@model IEnumerable<report.Models.ShopCategories>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.Partial("AddCategory", new report.Models.ShopCategories(false))
+</p>
+
+<div id="req"></div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("ID")
+        </th>
+        <th>
+            @Html.Label("Наименование")
+        </th>
+        <th>
+            @Html.Label("ID Категории родителя")
+        </th>
+    </tr>
+    <tbody id="list">
+        @if(Model != null)
+        {
+            foreach (var item in Model)
+            {
+                <tr>
+
+                    @Html.Partial("EditCategory", item)
+
+                    <td>
+                        @Ajax.ActionLink("Delete", "Delete", new { ob = item.Id }, new AjaxOptions { InsertionMode = InsertionMode.ReplaceWith }, new { })
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

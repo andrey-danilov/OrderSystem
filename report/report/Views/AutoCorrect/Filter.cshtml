@@ -1,0 +1,23 @@
+﻿@model report.Models.AutoCorrect
+
+@using (Html.BeginForm("Index", "AutoCorrect"))
+{
+        @Html.AntiForgeryToken()
+    
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.sku, new { htmlAttributes = new { @class = "form-control" , placeholder = "Sku" } })
+                @Html.ValidationMessageFor(model => model.sku, "", new { @class = "text-danger" })
+            
+            
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control", placeholder = "Наименование" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+
+                @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control", placeholder = "Описание" } })
+                @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+            
+                @Html.EditorFor(model => model.group, new { htmlAttributes = new { @class = "form-control", placeholder = "Группа" } })
+                @Html.ValidationMessageFor(model => model.group, "", new { @class = "text-danger" })
+                <input type="submit" value="Поиск" class="btn btn-default" />
+    </div>
+}
+@Html.Partial("ClearFilter")

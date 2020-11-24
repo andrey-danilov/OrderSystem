@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title – приложение ASP.NET</title>
+    <link href="/Content/bootstrap.css" rel="stylesheet" />
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"
+            integrity="sha256-C6CB9UYIS9UJeqinPHWTHVqh/E1uhG5Twh+Y5qFQmYg="
+            crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+<body style="padding-top: 0px; padding-bottom: 0px;">
+    @Scripts.Render("~/bundles/jquery")
+    
+    @Styles.Render("~/Content/themes/base/css")
+    <div class="navbar navbar-inverse">
+        <div class="container-lg-md-sm-xs">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Список Ордеров", "/Index", "Order")</li>
+                    <li>@Html.ActionLink("Наложеные", "/IndexImposed", "Order")</li>
+                    <li>@Html.ActionLink("Контроль", "/IndexControl", "Order")</li>
+                    <li>@Html.ActionLink("Поиск товаров", "/Index", "Search")</li>
+                    <li>@Html.ActionLink("Список Брендов", "/Index", "Vendors")</li>
+                    <li>@Html.ActionLink("Список магазинов", "/Index", "Shops")</li>
+                    <li>@Html.ActionLink("Категории", "/Index", "Categories")</li>
+                    <li>@Html.ActionLink("Трекинг", "/Index", "MailAPI")</li>
+                    <li>@Html.ActionLink("Статусы", "/Index", "UserStatus")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>
+    <div class="container-lg-md-sm-xs body-content">
+        @RenderBody()
+        <hr />
+        <footer clear:both;>
+            
+        </footer>
+    </div>
+
+    @section Scripts {
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/jqueryunobtrusive")
+    @*@Scripts.Render("~/scripts/jquery-1.10.2.min.js")*@
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+    @Scripts.Render("~/bundles/jqueryval")
+    }
+    @RenderSection("scripts", required: false)
+</body>
+</html>

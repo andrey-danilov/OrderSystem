@@ -1,0 +1,37 @@
+﻿@model List<report.Models.Status>
+
+<div>
+
+
+        @for (int i = 0; i < Model.Count; i++)
+        {
+            
+            @Html.HiddenFor(m => @Model[i].Id)
+            @Html.HiddenFor(m => @Model[i].flag)
+            @Html.HiddenFor(m => @Model[i].number)
+            @Html.HiddenFor(m => @Model[i].StatusName)
+            <div id="Status_@Model[i].Id" style="float:left;">
+                @Html.Partial("Edid_state", Model[i])
+                @*@Html.RadioButtonFor(m=> m[i].flag , Model[i].Id)*@
+            </div>
+        }
+
+
+</div>
+@using (Ajax.BeginForm("Staus_search", "Index", new AjaxOptions { UpdateTargetId = "ListOrders",
+                                                                    InsertionMode = InsertionMode.Replace,
+                                                                    LoadingElementId = "loading",
+                                                                    LoadingElementDuration = 1000
+                                                                }, htmlAttributes: new { }))
+{
+    <div >
+        <input type="submit" value="Поиск" class="btn btn-default" />
+    </div>
+    
+}
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+

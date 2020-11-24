@@ -1,0 +1,36 @@
+﻿@model PagedList.IPagedList<report.Models.Product>
+
+@using PagedList.Mvc;
+
+    <div>
+   @Html.Partial("SearchProducts", (report.Models.Product)ViewBag.SProduct)
+
+        <div style="clear:both;" id="CreatePV">
+            @Html.Partial("CreatePV", (report.Models.OrderProm)ViewBag.OrderReq)
+        </div>
+    <div id="1">
+        @if (Model.Count() > 0)
+        {
+            foreach (var item in Model)
+            {
+
+                @Html.Partial("AddToTempList", item)
+                
+
+            }
+        }
+    </div>
+</div>
+<div style="clear: both;">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+        @Html.PagedListPager(Model, page => Url.Action("ProductList", new { p=ViewBag.SPag, page}))
+</div>
+
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+
+

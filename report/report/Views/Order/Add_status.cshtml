@@ -1,0 +1,11 @@
+﻿@model report.Models.UserStatus
+
+@using (Ajax.BeginForm("Add_status", new AjaxOptions { UpdateTargetId = "stat" }))
+{
+    
+    @Html.DropDownListFor(m => m.StatusName, (IEnumerable<SelectListItem>)ViewBag.Stat)
+    
+    
+    <input type="submit" value="Create" name="button1" class="btn btn-default" />
+}
+

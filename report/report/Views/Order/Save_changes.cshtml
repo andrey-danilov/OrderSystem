@@ -1,0 +1,229 @@
+﻿@model report.Models.OrderProm
+
+        
+<div id="Save_changes_@Model.Id">
+    @Html.AntiForgeryToken()
+
+
+    @Html.HiddenFor(model => model.Id)
+    @Html.HiddenFor(model => model.Id_User)
+    @Html.HiddenFor(model => model.number)
+    <table id="form_@Model.Id" class="table" style="background-color:#ffffff00;">
+        <tr>
+
+            <th>
+                @Html.DisplayName("Номер заказа")
+            </th>
+            <th>
+                @Html.DisplayName("Номер телефона")
+            </th>
+            <th>
+                @Html.DisplayName("Дата")
+            </th>
+            <th>
+                @Html.DisplayName("Сумма заказа")
+            </th>
+            <th>
+                @Html.DisplayName("Номер Посылки")
+            </th>
+            <th>
+                @Html.DisplayName("Адресс")
+            </th>
+
+            <th>
+                @Html.DisplayName("Изменить")
+            </th>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.Order_Number, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Phone, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Data, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.TotalPrice, "", new { @class = "text-danger" })
+            </td>
+            <td>
+                @Html.Partial("EdidWaybillNumber", Model)
+            </td>
+            <td>
+                <textarea name="text"> @{@Model.DeliveryInfo}</textarea>
+            </td>
+            <td>
+                @Ajax.ActionLink("Edit", "EdidOrder", new { id = Model.Id }, new AjaxOptions { UpdateTargetId = "Edid_" + Model.Id }, new { @style = "color: #ff0000; margin-right: 10px;" })
+            </td>
+        </tr>
+    </table>
+
+    <div id="Edid_@Model.Id" style="margin-top: 60px;"></div>
+    <div id="SMS_@Model.Id" style="margin-top: 60px;">
+
+        <div id="ThankSMS_@Model.Id">
+            @Ajax.ActionLink("Спасибо за покупку", "SendS", new { id = Model.Order_Number }, new AjaxOptions { UpdateTargetId = "ThankSMS" + Model.Id }, new { @style = "color: #004dfb; margin-right: 10px; font-size: large;" })
+        </div>
+    </div>
+
+
+    <div style="clear:both;" id="Notes_@Model.Id">
+        @foreach (var item in Model.Notes)
+        {
+            <div id="Note_@item.Id" style="float:left;">
+                @Html.Partial("Edid_note", item)
+            </div>
+        }
+
+
+
+        <div style="clear:both;float:none;">
+            @Html.Partial("Add_note", new report.Models.Note() { Id = @Model.Id })
+        </div>
+
+        <div style="clear:both;float:none;">
+            @Html.Partial("EditShopNumber", Model)
+        </div>
+
+    </div>
+
+    <div>
+
+
+        <table class="table" style="background-color:#ffffff00;">
+            <tr>
+
+                <th>
+                    @Html.DisplayName("Номер продукта")
+                </th>
+                <th>
+                    @Html.DisplayName("Цена")
+                </th>
+                <th>
+                    @Html.DisplayName("Количество")
+                </th>
+                <th>
+                    @Html.DisplayName("Наименование")
+                </th>
+            </tr>
+            @foreach (var item in Model.Products)
+                            {
+                            <div></div>
+                            <div style="clear:both;float:none;">
+                            </div>
+                            <tr id="Status_@item.Id">
+                                <td>
+                                    <a href=@item.VendorUrl target="_blank" style="margin-right:100px">@{@item.VendorCode}</a>
+                                </td>
+                                <td>
+                                    <label>@{@item.Price}</label>
+                                </td>
+                                <td>
+                                    <label>@{@item.Quantity}</label>
+                                </td>
+                                <td>
+                                    <label>@{@item.Name}</label>
+                                </td>
+                                <td>
+                                    <a href=@item.Url target="_blank" style="margin-right:100px">URL</a>
+                                </td>
+                                <td>
+                                    @Ajax.ActionLink("Контакты", "Find_Con", new { id = item.VendorCode }, new AjaxOptions { UpdateTargetId = "Contacts_" + Model.Id })
+                                </td>
+                            </tr>
+                            }
+
+        </table>
+        <div id="Contacts_@Model.Id"></div>
+    </div>
+
+    <div style="clear:both;">
+
+
+        @foreach (var item in Model.Statuses)
+    {
+    <div id="Status_@item.Id" style="float:left;">
+        @Html.Partial("Edid_state_s", item)
+    </div>
+    }
+        <div><label>@Model.Traking: </label><label>@Model.TrakingStatus</label></div>
+
+    </div>
+
+
+
+    <div style="clear:both;">
+        <input type="text" id="Phonecont_@Model.Id" value="@Model.Phone" style="width:5px;" />
+        <button data-copytarget="#Phonecont_@Model.Id">Телефон</button>
+
+        <input type="text" id="NotAviability_@Model.Id" value="К сожалению, товара по вашей заявке в магазине СпортБэй нет в наличии. Извините за неудобства!" style="width:5px;" />
+        <button data-copytarget="#NotAviability_@Model.Id">Нет в наличии</button>
+
+        <input type="text" id="FirstRequisites_@Model.Id" value="Карта для оплаты заказа СпортБэй. 5168755622379747 Наталия Почепцова. Сумма @Model.TotalPrice. Пожалуйста, сообщите об оплате! Спасибо за заказ!" style="width:5px;" />
+        <button data-copytarget="#FirstRequisites_@Model.Id">Реквизит №1</button>
+
+        <input type="text" id="SecondRequisites_@Model.Id" value="Карта для оплаты заказа СпортБэй. __________________________________. Сумма @Model.TotalPrice. Пожалуйста, сообщите об оплате! Спасибо за заказ!" style="width:5px;" />
+        <button data-copytarget="#SecondRequisites_@Model.Id">Реквизит №2</button>
+
+        <input type="text" id="TakeOrder_@Model.Id" value="Пожалуйста, заберите в почтовом отделении купленный Вами товар. Накладная № @Model.WaybillNumber. Спасибо! Магазин СпортБэй." style="width:5px;" />
+        <button data-copytarget="#TakeOrder_@Model.Id">Забрать посылку</button>
+
+        <input type="text" id="RemAbPayment_@Model.Id" value="Товар в магазине СпортБэй зарезервирован за Вами. Пожалуйста, оплатите или отмените заказ. Спасибо!" style="width:5px;" />
+        <button data-copytarget="#RemAbPayment_@Model.Id">Напомнить об оплате</button>
+
+        <input type="text" id="Waibill_@Model.Id" value="@Model.WaybillNumber. Спасибо за покупку! Магазин СпортБэй." style="width:5px;" />
+        <button data-copytarget="#Waibill_@Model.Id">Спасибо за покупку</button>
+
+        <input type="text" id="WaibillTwo_@Model.Id" value="Ваш заказ отправлен. Накладная № @Model.WaybillNumber. Спасибо за покупку! Магазин СпортБэй." style="width:5px;" />
+        <button data-copytarget="#WaibillTwo_@Model.Id">Заказ отправлен</button>
+
+        <input type="text" id="Order_Number_@Model.Id" value="Ваш заказ №@Model.Order_Number будет отправлен наложенным платежом по указанному Вами адресу. Как только мы отправим посылку, Вы получите смс с номером ТТН Новой почты. Спасибо за ваш заказ! Магазин СпортБэй" style="width:5px;" />
+        <button data-copytarget="#Order_Number_@Model.Id">Наложка</button>
+        <script>
+                            (function () {
+
+                                'use strict';
+
+                                // click events
+                                document.body.addEventListener('click', copy, true);
+
+                                // event handler
+                                function copy(e) {
+
+                                    // find target element
+                                    var
+                                      t = e.target,
+                                      c = t.dataset.copytarget,
+                                      inp = (c ? document.querySelector(c) : null);
+
+
+                                    if (inp && inp.select) {
+
+                                        // select text
+                                        inp.select();
+
+                                        try {
+                                            // copy text
+                                            document.execCommand('copy');
+                                            inp.blur();
+                                        }
+                                        catch (err) {
+                                            alert('please press Ctrl/Cmd+C to copy');
+                                        }
+
+                                    }
+
+                                }
+
+                            })();
+        </script>
+    </div>
+
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+

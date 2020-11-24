@@ -1,0 +1,62 @@
+﻿@model report.Models.AutoCorrect
+
+@using (Ajax.BeginForm("SaveChange", "SaveChange", new AjaxOptions { InsertionMode = InsertionMode.Replace }, htmlAttributes: new {}))
+{
+
+    @Html.AntiForgeryToken()
+    
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id)
+        @Html.HiddenFor(model => model.ShopName)
+
+    @Html.HiddenFor(model => model.UserId)
+        <td>
+            @Html.EditorFor(model => model.sku, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.sku, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.DisplayFor(m => Model.MetodsName, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.DropDownListFor(m => Model.MetodsName, new SelectList(new[] {"", "RemoveFrom", "Replace","RegexReplace"}))
+            @Html.ValidationMessageFor(model => model.MetodsName, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.nameStartIndex, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.nameStartIndex, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.nameEndIndex, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.nameEndIndex, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.DisplayFor(m => Model.MetodsDescription, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.DropDownListFor(m => Model.MetodsDescription, new SelectList(new[] { "", "RegexReplace", "Add To Start", "Add To End", "RemoveFrom", "Replace" }))
+            @Html.ValidationMessageFor(model => model.MetodsDescription, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.descriptionStartIndex, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.descriptionStartIndex, "", new { @class = "text-danger" })
+        </td>
+        <td>           
+            @Html.EditorFor(model => model.descriptionEndIndex, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.descriptionEndIndex, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            @Html.EditorFor(model => model.group, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(model => model.group, "", new { @class = "text-danger" })
+        </td>
+        <td>
+            <input type="submit" value="Save" class="btn btn-default" />
+        </td>
+        <td>           
+            @Html.ActionLink("Delete", "Delete", new { id=Model.id })
+        </td>
+}

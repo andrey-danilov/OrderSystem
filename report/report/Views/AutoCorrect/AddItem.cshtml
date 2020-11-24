@@ -1,0 +1,117 @@
+﻿@model report.Models.AutoCorrect
+
+@using (Html.BeginForm("AddItem", "AutoCorrect"))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(model => model.id)
+    @Html.HiddenFor(model => model.ShopName)
+    <table>
+        <tr>
+            <th>
+                @Html.DisplayName("Sku")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.sku, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.sku, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Поле наименование")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.name, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.name, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Метод обработки")
+            </th>
+            <td>
+                @Html.DropDownListFor(m => Model.MetodsName, new SelectList(new[] { "", "RemoveFrom", "Replace", "RegexReplace" }))
+                @Html.ValidationMessageFor(model => model.MetodsName, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Позиция начала")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.nameStartIndex, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.nameStartIndex, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Позиция окончания")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.nameEndIndex, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.nameEndIndex, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Поле описания")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.description, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.description, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Метод обработки")
+            </th>
+            <td>
+                @Html.DropDownListFor(m => Model.MetodsDescription, new SelectList(new[] { "", "RegexReplace", "Add To Start", "Add To End", "RemoveFrom", "Replace" }))
+                @Html.ValidationMessageFor(model => model.MetodsDescription, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Позиция начала")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.descriptionStartIndex, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.descriptionStartIndex, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Позиция окончания")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.descriptionEndIndex, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.descriptionEndIndex, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr>
+            <th>
+                @Html.DisplayName("Разновидность")
+            </th>
+            <td>
+                @Html.EditorFor(model => model.group, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.group, "", new { @class = "text-danger" })
+            </td>
+        </tr>
+
+        <tr class="form-group">
+            <td >
+                <input type="submit" value="Добавить" class="btn btn-default" />
+            </td>
+        </tr>
+        
+    </table>
+}
+

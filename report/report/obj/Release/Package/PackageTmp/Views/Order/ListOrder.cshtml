@@ -1,0 +1,49 @@
+﻿@model PagedList.IPagedList<report.Models.OrderProm>
+@using PagedList.Mvc;
+
+<div style="clear: both;">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { shop = ViewBag.NameShop as string, relevance = ViewBag.relevance as string, page }))
+</div>
+@if (Model.Count > 0)
+{
+
+
+    foreach (var item in Model)
+    {
+
+        if (item.number % 2 == 0)
+        {
+            <div  style="clear:both; background-color: RGB(249, 201, 16,0.2);" class="visible-xs-lg">
+                @Html.Partial("Save_changes", item)
+            </div>
+        }
+        else
+        {
+            <div  style="clear:both; background-color: RGB(249, 201, 16,0.5);" class="visible-xs-lg">
+                @Html.Partial("Save_changes", item)
+            </div>
+        }
+
+
+        <p> </p>
+        <p> </p>
+
+
+    }
+}
+else {
+        <div>Нет ордеров... </div>
+}
+<div style="clear: both;">
+    Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+
+    @Html.PagedListPager(Model, page => Url.Action("Index", new { shop = ViewBag.NameShop as string, relevance = ViewBag.relevance as string, page }))
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+

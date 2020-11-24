@@ -1,0 +1,42 @@
+﻿@model report.Models.ProductProm
+
+@using (Ajax.BeginForm("Edid_Product", "Edid_Product", new AjaxOptions { UpdateTargetId = "form_" + Model.Id }, htmlAttributes: new { id = "form_" + Model.Id }))
+{
+    @Html.AntiForgeryToken()
+
+    
+
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.Id)
+        
+        <tr id="Status_@Model.Id" style="float:left;">
+            <td>
+                <label>@{@Model.VendorCode}</label>
+            </td>
+            <td>
+                <label>@{@Model.Price}</label>
+                    </td>
+                    <td>
+                        <label>@{@Model.Quantity}</label>
+                    </td>
+                    <td>
+                        <label>@{@Model.Name}</label>
+                    </td>
+                    <td>
+                        <a href=@Model.Url target="_blank" style="margin-right:100px">URL</a>
+                    </td>
+                </tr>
+
+
+
+
+                   
+
+
+
+
+
+
+
+    }

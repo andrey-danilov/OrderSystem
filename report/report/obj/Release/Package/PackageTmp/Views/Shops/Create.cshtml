@@ -1,0 +1,21 @@
+﻿
+
+@using (Html.BeginForm("Create", "Shops", FormMethod.Post))
+{
+    
+    <div class="form-horizontal">        
+            
+            <div class="col-md-10">                
+                <input type="text" name="name" class="form-control" placeholder="Имя поставщика"/>
+                <input type="text" name="Number" class="form-control" placeholder="Номер поставцика"/>
+                <input type="text" name="Phone" class="form-control" placeholder="Номер телефона"/>
+            </div>
+        
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Добавить поставщика" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}

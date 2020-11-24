@@ -1,0 +1,50 @@
+﻿@model report.Models.Product
+
+@using (Ajax.BeginForm("AddToTempList", "Order", new AjaxOptions { UpdateTargetId = "12",InsertionMode= InsertionMode.Replace}, htmlAttributes: new { id = "AddResults" + Model.Id  }))
+{
+    <div style="clear:both;">
+
+        @Html.AntiForgeryToken()
+
+        
+        @Html.HiddenFor(model => Model.Id)
+        @Html.HiddenFor(model => Model.vendorCode)
+        @Html.HiddenFor(model => Model.Name)
+        @Html.HiddenFor(model => Model.Price)
+        <div class="col-md-10" style="width: 5%; margin-right: 2%;">
+            
+            @Html.DisplayFor(Model => Model.vendorCode)
+        </div>
+        <div class="col-md-10"  style="width: 60%;">
+            
+            @Html.DisplayFor(Model => Model.Name)
+        </div>
+        <div class="col-md-10"  style="width: 5%; margin-right: 3%;">
+            
+            @Html.DisplayFor(Model => Model.Price)
+        </div>
+        <div class="col-md-10"  style="width: 5%; ">
+            
+            <a href=@Model.Url target="_blank" style="margin-right:100px">URL</a>
+        </div>
+        <div class="col-md-10"  style="width: 8%; margin-right: 5%;">
+            
+            @Html.EditorFor(Model => Model.Quantity, new { htmlAttributes = new { @class = "form-control" } })
+            @Html.ValidationMessageFor(Model => Model.Quantity, "", new { @class = "text-danger" })
+        </div>
+
+
+        <div class="col-md-10"  style="width: 5%;">
+            <input type="submit" name="Command" value="Add" />
+            
+        </div>
+
+       
+    </div>
+}
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
+
+                            

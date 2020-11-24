@@ -1,0 +1,48 @@
+﻿@model report.Models.Product
+<div id="SearchRes">
+    @using (Html.BeginForm("ProductList", "Order"))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.vendorCode, new { htmlAttributes = new { @class = "form-control", placeholder = "Номер товара" } })
+            @Html.ValidationMessageFor(model => model.vendorCode, "", new { @class = "text-danger" })
+
+
+            @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", placeholder = "Имя продукта" } })
+            @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+
+
+            @Html.EditorFor(model => model.KeyWorsd, new { htmlAttributes = new { @class = "form-control", placeholder = "Ключевые слова" } })
+            @Html.ValidationMessageFor(model => model.KeyWorsd, "", new { @class = "text-danger" })
+
+
+            @Html.EditorFor(model => model.vendor, new { htmlAttributes = new { @class = "form-control", placeholder = "Производитель" } })
+            @Html.ValidationMessageFor(model => model.vendor, "", new { @class = "text-danger" })
+        </div>
+        <div class="col-md-10">
+            @for (var i = 0; i < Model.ProductParameters.Count; i++)
+            {
+                <div>
+
+                    @Html.EditorFor(m => Model.ProductParameters[i].Name, new { htmlAttributes = new { placeholder = "Найменование характеристики" } })
+
+                    @Html.EditorFor(m => Model.ProductParameters[i].Value, new { htmlAttributes = new { placeholder = "Значение характеристики" } })
+                </div>
+                <p></p>
+
+            }
+        </div>
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" value="Search" class="btn btn-default" />
+        </div>
+
+
+    }
+</div>
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}

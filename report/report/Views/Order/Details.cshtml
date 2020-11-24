@@ -1,0 +1,122 @@
+﻿@model report.Models.OrderProm
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            
+        </th>
+        <th>
+            
+        </th>
+        <th>
+           
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model.Products)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.VendorCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div>
+    <h4>OrderProm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Id_User)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Id_User)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Order_Number)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Order_Number)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BuyersName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BuyersName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Phone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Phone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Data)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Data)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalPrice)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TotalPrice)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeliveryAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeliveryAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DeliveryMethod)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DeliveryMethod)
+        </dd>
+
+        
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Add Product", "Add_Product", new { id = Model.Id }) |
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,35 @@
+﻿@model String
+@using (Html.BeginForm("Upload", "Konfig", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    
+    <table>
+        <tr>
+            <td>
+                <input type="submit" value="Загрузить" />
+            </td>
+            <td>
+                <span><input type="file" name="upload"></span>
+                <input type="hidden" name="Id" value=@Model>
+            </td>
+            <td>
+                @Ajax.ActionLink("Сохранить файл", "SaveToFile", new {}, new AjaxOptions { UpdateTargetId = "req" }, new { })
+            </td>
+            </tr>
+        @if (ViewBag.req as String != null)
+        {
+            <tr>
+                <td>@Html.DisplayName(ViewBag.req as String)</td>
+                <td style="padding-left:10px;"><label><a href="/Shops/Index">Список магазинов</a></label></td>
+            </tr>
+        }
+        
+    </table>
+    
+        
+}
+
+
+@section Scripts {
+    @Scripts.Render("~/scripts/jquery-1.10.2.min.js")
+    @Scripts.Render("~/scripts/jquery.unobtrusive-ajax.min.js")
+}
