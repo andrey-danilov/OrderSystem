@@ -1,0 +1,14 @@
+D:\Парсеры\parsV2\parsV2\bin\Debug\parsV2.exe.config
+D:\Парсеры\parsV2\parsV2\bin\Debug\parsV2.exe
+D:\Парсеры\parsV2\parsV2\bin\Debug\parsV2.pdb
+D:\Парсеры\parsV2\parsV2\bin\Debug\CsQuery.dll
+D:\Парсеры\parsV2\parsV2\bin\Debug\System.Xml.ReaderWriter.dll
+D:\Парсеры\parsV2\parsV2\bin\Debug\CsQuery.xml
+D:\Парсеры\parsV2\parsV2\obj\Debug\parsV2.csprojResolveAssemblyReference.cache
+D:\Парсеры\parsV2\parsV2\obj\Debug\parsV2.exe
+D:\Парсеры\parsV2\parsV2\obj\Debug\parsV2.pdb
+D:\Парсеры\parsV2\parsV2\bin\Debug\WebDriver.dll
+D:\Парсеры\parsV2\parsV2\bin\Debug\WebDriver.xml
+D:\Парсеры\parsV2\parsV2\bin\Debug\phantomjs.exe
+D:\Парсеры\parsV2\parsV2\bin\Debug\phantomjs-license.txt
+D:\Парсеры\parsV2\parsV2\bin\Debug\NReco.PhantomJS.dll

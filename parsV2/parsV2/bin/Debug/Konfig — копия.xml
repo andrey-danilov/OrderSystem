@@ -1,0 +1,2569 @@
+<shop>
+<main_options name="product_url" By="Css" take="Text">ul.product-list > li:nth-child(n) > p > a</main_options>
+<main_options name="pagination" By="Css" take="urslList"># main > div > div.links > a:nth-child(n)</main_options>
+<main_options name="vendor_code" By="" take="">02</main_options>
+<main_options name="product_name" By="Css" take="Text">#content > div.product-info > div.top > h1</main_options>
+<main_options name="description" By="Css" take="Text">#content > div:nth-child(3) > p:nth-child(n)</main_options>
+<main_options name="price_low" By="Css" take="Text">#price_main</main_options>
+<main_options name="price_high" By="Css" take="Text">#price_main</main_options>
+<main_options name="main_picture" By="Css" take="href">#ui-id-1</main_options>
+<main_options name="additional_picture" By="Css" take="href">#images > div > a:nth-child(n)</main_options>
+<main_options name="product_code" By="Css" take="Text"></main_options>
+<main_options name="vendor" By="Css" take="Text"></main_options>
+<main_options name="availability" By="Css" take="Text">div.cart > div > h2</main_options>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<categories>
+<category>
+<url>http://bars.org.ua/boks_i_edinoborstva/box_i_edinoborstva/</url>
+<SubCatecory>
+<name_our_categori>40</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мешки боксерские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс|ММА</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Sportko</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=59_182</url>
+<SubCatecory>
+<name_our_categori>43</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Разное</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс|ММА</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=59_144</url>
+<SubCatecory>
+<name_our_categori>43</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">капа</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Капы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+<SubCatecory>
+<name_our_categori>43</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">бинт</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Бинты боксерские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/boks_i_edinoborstva/lampi_makivari_raketki/</url>
+<SubCatecory>
+<name_our_categori>40</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс|ММА</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/boks_i_edinoborstva/perchatki_dlya_boksa_i_edinoborstv/</url>
+<SubCatecory>
+<name_our_categori>41</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс|ММА</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=59_136</url>
+<SubCatecory>
+<name_our_categori>41</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Снарядные перчатки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=59_137</url>
+<SubCatecory>
+<name_our_categori>43</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Шлемы боксерские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/velosport/veloochki/</url>
+<SubCatecory>
+<name_our_categori>126</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Очки спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные|Спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/velosport/veloforma/</url>
+<SubCatecory>
+<name_our_categori>51</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Велошорты</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Велоспорт</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/velosport/shlemi/</url>
+<SubCatecory>
+<name_our_categori>60</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Велоспорт</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/vse_dlya_armii/bakalavy/</url>
+<SubCatecory>
+<name_our_categori>110</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">балаклав</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Балаклавы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм|Велоспорт|Лыжи горные|Лыжи беговые|Сноубординг</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+<SubCatecory>
+<name_our_categori>110</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">шапк</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Шапки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/vse_dlya_armii/termobelye/</url>
+<SubCatecory>
+<name_our_categori>111</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные|Спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=149_155</url>
+<SubCatecory>
+<name_our_categori>89</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/getri/</url>
+<SubCatecory>
+<name_our_categori>3</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=61_164</url>
+<SubCatecory>
+<name_our_categori>3</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/zachita/nakolenniki/</url>
+<SubCatecory>
+<name_our_categori>129</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Наколенники</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Волейбол|Туризм</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=65_158</url>
+<SubCatecory>
+<name_our_categori>156</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Перчатки для фитнеса</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/zachita/perchatki_vratarskie/</url>
+<SubCatecory>
+<name_our_categori>4</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/zachita/shitki_futbolnie/</url>
+<SubCatecory>
+<name_our_categori>5</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=156_62</url>
+<SubCatecory>
+<name_our_categori>72</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">коньки</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Коньки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=156_184</url>
+<SubCatecory>
+<name_our_categori>71</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="True">шайб</combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Хоккей</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=183_185</url>
+<SubCatecory>
+<name_our_categori>96</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бильярд</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=183_190</url>
+<SubCatecory>
+<name_our_categori>97</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Настольные игры</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/basketbolnye_myachi/</url>
+<SubCatecory>
+<name_our_categori>9</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи баскетбольные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Баскетбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/voleybolnie_myachi/</url>
+<SubCatecory>
+<name_our_categori>10</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи волейбольные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Волейбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/gandbolnie_myachi/</url>
+<SubCatecory>
+<name_our_categori>136</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи гандбольные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Гандбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/medboli/</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Медболы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=64_134</url>
+<SubCatecory>
+<name_our_categori>136</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи для Американского футбола</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Американский футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/myachi_dlya_vodnogo_pollo/</url>
+<SubCatecory>
+<name_our_categori>136</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи для водного поло</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Водное поло</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Gilbert</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/myachi_dlya_regbi/</url>
+<SubCatecory>
+<name_our_categori>136</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи для регби</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Регби</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Gilbert</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/fytbolnie_myachi/</url>
+<SubCatecory>
+<name_our_categori>8</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи футбольные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/myachi/fytzalnie_myachi/</url>
+<SubCatecory>
+<name_our_categori>8</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Мячи футзальные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футзал</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=175_179</url>
+<SubCatecory>
+<name_our_categori>98</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Грамоты</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=175_181</url>
+<SubCatecory>
+<name_our_categori>98</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Медали</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=175_180</url>
+<SubCatecory>
+<name_our_categori>98</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кубки, Статуэтки</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=67_191</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Разное</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=67_174</url>
+<SubCatecory>
+<name_our_categori>73</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Разное</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=67_177</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Фишки, Тарелки</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+<SubCatecory>
+<name_our_categori>6</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Бампы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/butsy/</url>
+<SubCatecory>
+<name_our_categori>6</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Бутсы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/sorokonogki/</url>
+<SubCatecory>
+<name_our_categori>6</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Сороконожки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/bokserki/</url>
+<SubCatecory>
+<name_our_categori>46</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Боксерки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/borcovki/</url>
+<SubCatecory>
+<name_our_categori>46</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Борцовки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Борьба</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/kedi/</url>
+<SubCatecory>
+<name_our_categori>118</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кеды</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=68_178</url>
+<SubCatecory>
+<name_our_categori>76</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Роликовые коньки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Ролики</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=68_135</url>
+<SubCatecory>
+<name_our_categori>119</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Чешки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Гимнастика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/shipovka/</url>
+<SubCatecory>
+<name_our_categori>75</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Шиповки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Легкая атлетика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/obyv_sportivnaya/shtangetki/</url>
+<SubCatecory>
+<name_our_categori>73</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Штангетки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Тяжелая атлетика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_128</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Брюки для кикбоксинга</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Кикбоксинг</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_124</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кимоно для дзю-до</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Дзю-до</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_123</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кимоно для каратэ</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Каратэ</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_131</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кимоно для самбо</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Самбо</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_130</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кимоно для Таэквондо</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Таэквондо</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_127</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Пояса</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=122_133</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Трусы для тайбо</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Тайский бокс</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/basketbolnaya_odegda/</url>
+<SubCatecory>
+<name_our_categori>9</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Баскетбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/bokserskaya_forma/</url>
+<SubCatecory>
+<name_our_categori>44</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Бокс</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/vetrovki/</url>
+<SubCatecory>
+<name_our_categori>100</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Ветровки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Весна-Осень</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/voleybolnaya_forma/</url>
+<SubCatecory>
+<name_our_categori>10</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Волейбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_98_150</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Вратарская форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Брюки вратарские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_98_151</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Вратарская форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Кофты вратарские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_98_152</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Вратарская форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Комплекты формы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/gimnastka/</url>
+<SubCatecory>
+<name_our_categori>78</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Купальники гимнастические</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Гимнастика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_196</url>
+<SubCatecory>
+<name_our_categori>111</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм|Велоспорт|Лыжи горные|Лыжи беговые|Сноубординг</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/kostumi_detskie/</url>
+<SubCatecory>
+<name_our_categori>105</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Весна-Осень</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Пол</name>
+<value By="Text">Детские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/kostumi_sportivnie_paradnie/</url>
+<SubCatecory>
+<name_our_categori>105</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Весна-Осень</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Пол</name>
+<value By="Text">Мужские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/kostumi_sportivnie_trenerovochnie/</url>
+<SubCatecory>
+<name_our_categori>105</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Тренировочные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Тренировочные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Лето|Весна-Осень</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Пол</name>
+<value By="Text">Мужские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/kyrtki_sportivnie/</url>
+<SubCatecory>
+<name_our_categori>100</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Зима</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/legkoatleticheskaya_forma/</url>
+<SubCatecory>
+<name_our_categori>75</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Легкая атлетика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/maiki/</url>
+<SubCatecory>
+<name_our_categori>103</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Майки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Лето</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/manishki/</url>
+<SubCatecory>
+<name_our_categori>114</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Назначение</name>
+<value By="Text">Спортивные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/ubki_dlya_tancev/</url>
+<SubCatecory>
+<name_our_categori>78</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Танцы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_169</url>
+<SubCatecory>
+<name_our_categori>71</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Хоккей</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_189</url>
+<SubCatecory>
+<name_our_categori>102</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Кофты</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Сезонность</name>
+<value By="Text">Весна-Осень</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/sydeiskaya_forma/</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Судейская форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/triko_boicovskoe_shtangistskoe/</url>
+<SubCatecory>
+<name_our_categori>47</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Трико</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Борьба|Тяжелая атлетика</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/fytbolki/</url>
+<SubCatecory>
+<name_our_categori>103</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Повседневные</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/fytbolnaya_forma/</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Футбольная форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Собственное производство</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_194</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Футбольная форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=69_171</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Футбольная форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Пол</name>
+<value By="Text">Детские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/klybnaya_fytbolnaya_forma/</url>
+<SubCatecory>
+<name_our_categori>7</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Футбольная форма</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Футбол</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/sportivnaya_odegda/shaiping_aerobika/</url>
+<SubCatecory>
+<name_our_categori>78</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Пол</name>
+<value By="Text">Женские</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=195</url>
+<SubCatecory>
+<name_our_categori>143</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Спортивное питание</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=70_139</url>
+<SubCatecory>
+<name_our_categori>89</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Карематы, Сидушки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/tyrizm_i_otdih/palatki/</url>
+<SubCatecory>
+<name_our_categori>95</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Палатки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/tyrizm_i_otdih/spalniki/</url>
+<SubCatecory>
+<name_our_categori>89</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Спальники</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Туризм</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=160_166</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Скакалки</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=160_168</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Фитболы</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+<category>
+<url>http://bars.org.ua/index.php?route=product/category&path=160_167</url>
+<SubCatecory>
+<name_our_categori>74</name_our_categori>
+<PortalCategoryId></PortalCategoryId>
+<discount>0</discount>
+<price>all</price>
+<price_processing>25</price_processing>
+<combination value="False"></combination>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Наименование</name>
+<value By="Text">Эспандеры</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="False">
+<main By=""></main>
+<name By="Text">Применение</name>
+<value By="Text">Фитнес</value>
+<exception name=""></exception>
+</characteristics>
+<characteristics group="True">
+<main By=""></main>
+<name By="">Размеры</name>
+<value By="Css">#main > div > form > select > option:nth-child(n)</value>
+<exception name=""></exception>
+</characteristics>
+<vendor>Noname</vendor>
+</SubCatecory>
+</category>
+</categories>
+</shop>

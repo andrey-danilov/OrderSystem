@@ -1,0 +1,48 @@
+﻿<products>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="ОПТОВЫЕ ЦЕНЫ ТОВАР ОТПРАВЛЯЕМ  СРОКИ ДОСТАВКИ ОПЛАТУ ЗА ТОВАР" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="ОПТОВЫЕ ЦЕНЫ начинают действовать, если общая сумма заказа превысит 10000 грн. При общей сумме заказа от 5000 грн. cкидка 10%.ТОВАР ОТПРАВЛЯЕМ  ОПЛАТУ ЗА ТОВАР ." end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="Доставка и оплата:" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="ТОВАР ОТПРАВЛЯЕМ" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="перевозчиком «Новая Почта». Есть ли в Вашем населенном пункте отделение, можете проверить на сайте" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="СРОКИ ДОСТАВКИ" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="ОПЛАТУ ЗА ТОВАР" end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="Вы производите непосредственно при получении на «Новой Почте», на карту или расчетный счет." end=""> </description>
+<group>1</group>
+</product>
+<product id="">
+<name metod="" start="" end=""></name>
+<description metod="Replace" start="ОПТОВЫЕ ЦЕНЫ начинают действовать, если общая сумма заказа превысит 10000 грн. При общей сумме заказа от 5000 грн. cкидка 10%.   «Новая почта» - 1-2 рабочих дня. ." end=""> </description>
+<group>1</group>
+</product>
+</products>
+
